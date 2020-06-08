@@ -1,0 +1,77 @@
+body{
+    overflow: auto;
+}
+div.container{
+    /*position: fixed;*/
+    top: 20%;
+    left: 50%;
+    width: 520px;
+    height: 800px;
+    margin-left: 30%;
+    /*margin-top: -9em;
+    margin-left: -17em;*/
+}
+
+div.visor{
+    width: 500px;
+    height: 220px;
+    margin-left: -5px;
+    background: #f6f7fa;
+}
+div.accumulator{
+    color: #c5c5c5;
+    width: 500px;
+    font-size: 30px;
+    text-align: right;
+    padding-right: 10px;
+    padding-top: 5px;
+}
+
+div.total{
+    color: #242529;
+    width: 500px;
+    font-size: 70px;
+    text-align: right;
+    padding-right: 10px;
+}
+
+div.numeric{
+    width: 125px;
+    height: 100px;
+    display: inline-block;
+    background: #191a1c;
+    color: #969ea5;
+    font-size: 40px;
+    text-align: center;
+    vertical-align: middle !important;
+    margin-left: -5px;
+    padding-top: 40px;
+    cursor: pointer;
+}
+
+div.zero{
+    width: 250px;
+    height: 100px;
+    display: inline-block;
+    background: #191a1c;
+    color: #969ea5;
+    font-size: 40px;
+    text-align: center;
+    vertical-align: middle !important;
+    margin-left: -5px;
+    padding-top: 40px;
+    cursor: pointer;
+}
+
+div.numeric:hover{
+    background-color: #f6f7fa;
+    opacity: 0.7;
+}
+
+div.zero:hover{
+    background-color: #f6f7fa;
+    opacity: 0.7;
+}
+ div.action{
+     background-color: #242529 !important;
+ }
