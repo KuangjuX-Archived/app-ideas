@@ -1,0 +1,43 @@
+.center{
+    text-align: center;
+}
+
+div.container{
+    width: 50%;
+    max-width: 500px;
+    height: 300px;
+    border: black solid 1px;
+    border-radius: 5%;
+    margin-top: 8%;
+    margin-left: 33%;
+}
+
+input[type="text"]{
+    width: 200px;
+    height: 30px;
+    border-radius: 5%;
+    border: black 3px solid;
+}
+
+input[type="submit"]{
+    width: 100px;
+    height: 45px;
+    border: black 5px solid;
+    border-radius: 10%;
+    background-color: slategrey;
+    color: white;
+}
+
+input[type="submit"]:hover{
+    background-color: darkgrey;
+}
+
+div.cents{
+    width: 300px;
+    height: 30px;
+    border: black solid 3px;
+    border-radius: 5%;
+    margin-left: 22%;
+}
+
+
